@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuizGame</title>
-    <link rel="stylesheet" href="./assets/style.css">
-   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+        integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Code Quiz</title>
 </head>
+
 <body>
-    <header>
-        <h1>Let's Play A Game!</h1>
-        <button class="start">Start</button>
 
-        <h3 class="time" style="text-align:right;"> Time</h3>
-    </header>
+    <h2 class="time"></h2>
+    <div id="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="nameOfQuiz">
+                    <h1>Quiz Game</h1>
+                </div>
+            </div>
 
-    <div id="playArea">
-        <button class="button" id="btn1">1</button>
-        <button class="button" id="btn2">2</button>
-        <button class="button" id="btn3">3</button>
-        <button class="button" id="btn4">4</button>
-        <button class="button" id="submit">Submit</button>
-
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="para">
+                    <p>Prepare for a javascript Challenge </p>
+                    <p>Ths one is pretty easy.</p>
+                    <p>Good Luck!!!</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="clicker">
+            <button class="btn btn-primary" type="submits" value="Start Quiz">Start Quiz</button>
+        </div>
     </div>
-<script src="/assets/script.js" > </script>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+
 </body>
 
 </html>

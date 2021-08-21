@@ -1,13 +1,20 @@
-// add handles to objects inside the DOM
 const start = document.querySelector(".start")
 const buttons = document.querySelectorAll(".button")
 const timeEl = document.querySelector(".time");
-const secondsLeft = 60;
+let secondsLeft = 60;
 
+start.addEventListener("click", function(){
+    function setInterval() {
+        start = setInterval(function() {
+            time();
+        }, 1000)
+    }
+    
+})
 
 
 function setTime() {
-    console.log("I Run")
+    var secondsLeft = 5
     var timerInterval = setInterval(function() {
         secondsLeft--;
         timeEl.textContent = secondsLeft + " seconds left.";
