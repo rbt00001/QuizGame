@@ -1,11 +1,16 @@
+
+:root {
+    background-color: blanchedalmond;
+}
 body {
     background-color: blanchedalmond;
 }
-
 #container {
 
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
+    justify-content: center;
+    
 }
 
 #para {

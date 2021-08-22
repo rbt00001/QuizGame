@@ -137,7 +137,7 @@ function provideInfo() {
     finalPopUp.appendChild(formInput);
     finalPopUp.appendChild(newButton);
 
-    //Leaderboard 
+    //High scores
 
 
 
